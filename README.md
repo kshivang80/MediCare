@@ -1,4 +1,4 @@
-# MediCare+.com
+# MediCare.com
 
 ## Objective:
 Medicare Advances in biomedical research and clinical innovations have greatly expanded the array of medical interventions available to prevent or manage disease or injury. Keeping track of these advances and the scientific evidence about their potential benefits 
