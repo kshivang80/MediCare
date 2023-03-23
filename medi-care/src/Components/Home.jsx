@@ -311,7 +311,7 @@ const Home = () => {
 
             {/* News Letter Subscription */}
 
-            <Box w='100%' h='500px'   mt="130px">
+            <Box w='100%' h='520px'   mt="130px">
                 <Box w='85%' h='94%' bg="#007FF4" m='auto' borderRadius="30px">
                     <Box textAlign='center'>
                         <Text paddingTop={'20px'} fontSize="48px" color='#FFFFFF' fontFamily="sans-serif" fontWeight="600" >Subscribe to Newsletter</Text>

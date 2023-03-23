@@ -3,24 +3,7 @@ import styled from "styled-components";
 import { Link, animateScroll } from "react-scroll";
 
 const Navbar = () => {
-    const [colorChange, setColorchange] = useState(false);
-    const [head, setHead] = useState(false);
-    const changeNavbarColor = () => {
-      if (window.scrollY >= 10 || head) {
-        setColorchange(true);
-      } else {
-        setColorchange(false);
-      }
-    };
-    window.addEventListener("scroll", changeNavbarColor);
-  
-    useEffect(() => {
-      if (head || colorChange) {
-        setColorchange(true);
-      } else {
-        setColorchange(false);
-      }
-    }, [head, colorChange]);
+ 
 
     
 
@@ -29,7 +12,7 @@ const Navbar = () => {
         <header
          
           className="header"
-          style={{ backgroundColor: `${colorChange ? "white" : "transparent"}` }}
+          style={{ backgroundColor: `white` }}
         >
           <a href="/" className="logo" style={{color:"#0073FF",fontFamily:"sans-serif",fontWeight:"bold"}}>
            Medi <a style={{color:"#FF9F6A",fontFamily:"sans-serif",fontWeight:"bold"}}>Care+</a>
@@ -55,7 +38,7 @@ const Navbar = () => {
               <Link
                 activeClass="active"
                 to="about"
-                 onClick={() => setHead(true)}
+                
                 spy={true}
                 smooth={true}
                 style={{cursor:"pointer",color:"#0073FF",fontFamily:"sans-serif"}}
@@ -67,7 +50,7 @@ const Navbar = () => {
               <Link
                 activeClass="active"
                 to="service"
-                onClick={() => setHead(true)}
+              
                 spy={true}
                 smooth={true}
                 style={{cursor:"pointer",color:"#0073FF",fontFamily:"sans-serif"}}
@@ -79,7 +62,7 @@ const Navbar = () => {
               <Link
                 activeClass="active"
                 to="News"
-                onClick={() => setHead(true)}
+               
                 spy={true}
                 smooth={true}
                 style={{cursor:"pointer",color:"#007FF4",fontFamily:"sans-serif"}}
@@ -93,7 +76,7 @@ const Navbar = () => {
                 activeClass="active"
                 className="contact"
                 to="contact"
-                //onClick={() => setHead(true)}
+               
                 spy={true}
                 smooth={true}
                

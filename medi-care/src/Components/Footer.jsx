@@ -68,7 +68,7 @@ const Footer = () => {
        {/* -------------------------------------------------Media Queries-------------------------------------------- */}
 
        <MediaQuery minWidth={768} maxWidth={991}>
-        <Box w="100%" h="245px" border="1px solid pink"  bg="#ECF4FF" >
+        <Box w="100%" h="245px"   bg="#ECF4FF" >
         <Accordion allowToggle w="85%" m="auto">
           <AccordionItem>
             <h2>
